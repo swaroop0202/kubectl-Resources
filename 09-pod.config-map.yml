@@ -12,7 +12,7 @@ spec:
       - name: nginx
         valueFrom:
           configMapKeyRef:
-            name: 08-config-maps.yml
+            name: config-demo
             key: course
 
    
