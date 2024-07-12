@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: config-demo
+data:
+  course: "aws and devops"
+  duration: "100hrs"
+  trainer: "swaroop"  
