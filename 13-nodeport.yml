@@ -8,3 +8,7 @@ spec:
     name: service-test
     environment: dev
     project: expense
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80  
