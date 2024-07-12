@@ -10,6 +10,6 @@ spec:
     image: nginx:1.14.2
     env:
     - name: course
-      course: kubernetes
+      value: "kubernetes"
     - name: duration 
-      course: 20hrs
+      value: "20hrs"
