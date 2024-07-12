@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata: 
+  name: nginx
+  labels:
+    name: service-test
+    environment: dev
+    project: expense
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  
