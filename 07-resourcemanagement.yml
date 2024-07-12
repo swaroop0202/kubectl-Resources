@@ -5,11 +5,11 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginx:1.14.2
+    image: nginx
     resources:
       requests:
-        memory: "100mi"
-        cpu: "128m"
+        cpu: "100m"
+        memory: "128mi"
       limits:
-        memory: "100mi"
-        cpu: "128m"
+        cpu: "100m"
+        memory: "128mi"
