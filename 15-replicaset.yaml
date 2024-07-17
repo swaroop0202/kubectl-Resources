@@ -12,6 +12,7 @@ spec:
     matchLabels:
       name: nginx
       environment: dev
+  # below is the pod definition
   template:
     metadata:
       labels:
@@ -20,6 +21,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx     
+        image: nginx:stable-perl
         
           
