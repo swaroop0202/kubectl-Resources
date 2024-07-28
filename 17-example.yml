@@ -18,9 +18,9 @@ spec: # this is the replica definition
         project: expense
         environment: dev
     spec:
-    containers:
-      - name: nginx
-        image: nginx    
-        ports:
-        - protocol: TCP
-          containerPort: 80
+     containers:
+       - name: nginx
+         image: nginx    
+         ports:
+         - protocol: TCP
+           containerPort: 80
