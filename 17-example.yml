@@ -1,0 +1,25 @@
+kind: Replicaset
+apiVersion: v1
+metadata:
+  name: replica
+  labels:
+    project: expense
+    environment: dev
+spec: # this is the replica definition
+  replicas: 2
+  selector:
+    matchlabels:
+      project: expense
+      environment: dev
+  template: # this is the pod definition
+    metadata:
+      labels:
+        project: expense
+        environment: dev
+   spec:
+    containers:
+      - name: nginx
+        image: nginx    
+        ports:
+        - protocol: TCP
+          containerPort: 80
