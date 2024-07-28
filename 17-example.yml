@@ -17,7 +17,7 @@ spec: # this is the replica definition
       labels:
         project: expense
         environment: dev
-   spec:
+    spec:
     containers:
       - name: nginx
         image: nginx    
