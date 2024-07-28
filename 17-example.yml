@@ -1,6 +1,8 @@
 kind: Replicaset
 apiVersion: v1
 metadata:
+  name: my-replica
+  namespace: default
   labels:
     project: expense
     environment: dev
