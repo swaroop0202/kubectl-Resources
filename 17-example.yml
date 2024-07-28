@@ -13,6 +13,7 @@ spec: # this is the replica definition
       environment: dev
   template: # this is the pod definition
     metadata:
+      name: replica
       labels:
         project: expense
         environment: dev
